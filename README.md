@@ -1,2 +1,1 @@
-# cashRegister
-cashRegister algorithm 
+
