@@ -13,7 +13,7 @@ const DENOM = [
 const STATUS = { open: "OPEN", insufficient: "INSUFFICIENT_FUNDS", close: "CLOSED" }
 
 function checkCashRegister(price, cash, cid) {
-    // Here is your change, ma'am.
+    
     let output = { status: '', change: [] };
 
     const totalCashInDrawer = cid.reduce((total, currency) => currency[1] + total, 0);
